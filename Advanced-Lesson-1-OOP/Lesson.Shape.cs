@@ -14,8 +14,8 @@ namespace Advanced_Lesson_1_OOP
             IShape[] shapes = new IShape[]
             {
                 new Rectangle(10, 10),
-                new Circle(5),
-                new Circle(12)
+                new CircleLesson(5),
+                new CircleLesson(12)
             };
 
             Print(shapes);
@@ -54,11 +54,11 @@ namespace Advanced_Lesson_1_OOP
     }
 
 
-    class Circle : IShape
+    class CircleLesson : IShape
     {
         private int rad;
 
-        public Circle(int rad)
+        public CircleLesson(int rad)
         {
             this.rad = rad;
         }
@@ -70,13 +70,13 @@ namespace Advanced_Lesson_1_OOP
     }
 
 
-    public class Triangle : IShape
+    public class TriangleLesson : IShape
     {
         private int a;
         private int b;
         private int c;
 
-        public Triangle(int a, int b, int c)
+        public TriangleLesson(int a, int b, int c)
         {
             this.a = a;
             this.b = b;
