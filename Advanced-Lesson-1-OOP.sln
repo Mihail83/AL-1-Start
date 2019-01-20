@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced-Lesson-1-OOP", "Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP.csproj", "{A89E9A61-56A1-48B3-917C-91CE9AEDB60D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InetShop", "InetShop\InetShop.csproj", "{926D549C-4774-4737-8DA2-876288F0A383}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A89E9A61-56A1-48B3-917C-91CE9AEDB60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89E9A61-56A1-48B3-917C-91CE9AEDB60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89E9A61-56A1-48B3-917C-91CE9AEDB60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926D549C-4774-4737-8DA2-876288F0A383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926D549C-4774-4737-8DA2-876288F0A383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926D549C-4774-4737-8DA2-876288F0A383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926D549C-4774-4737-8DA2-876288F0A383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
